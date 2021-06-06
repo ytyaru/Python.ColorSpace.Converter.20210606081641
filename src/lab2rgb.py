@@ -34,5 +34,5 @@ if __name__ == '__main__':
     lab[1] = float(lab[1])
     lab[2] = float(lab[2])
     r, g, b = lab2rgb(lab)
-    print('%d;%d;%d' % (r, g, b))
+    print('%d,%d,%d' % (r, g, b))
 
