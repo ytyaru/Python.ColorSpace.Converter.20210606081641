@@ -21,5 +21,11 @@ Run() {
 	G=77
 	B=11
 	"$HERE/rgb2lab.py" $R,$G,$B
+
+	L=45.0
+	a=37.0
+	b=52.0
+	"$HERE/lab2lch.py" $L,$a,$b
+
 }
 Run "$@"
