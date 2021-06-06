@@ -31,5 +31,6 @@ Run() {
 	G=77
 	B=11
 	"$HERE/rgb2lch.py" $R,$G,$B
+	"$HERE/lch2rgb.py" $("$HERE/rgb2lch.py" $R,$G,$B)
 }
 Run "$@"
